@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+body {
+  background-color: #e6e6e6;
+  color: #121772 !important;
+}
+main {
+  min-height: 100dvh;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+.theme-inf {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 25px;
+  min-height: 80dvh;
+}
+.title {
+  position: relative;
+  color: blueviolet;
+  padding-bottom: 15px;
+  border-bottom: 2px solid blueviolet;
+}
+.provel {
+  width: 35px;
+  height: 25px;
+  display: inline-block;
+}
+
+.title .back {
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  transform: translate(50%, -50%);
+  left: 0%;
+  border: none;
+  padding: 10px;
+  background-color: blueviolet;
+  display: flex;
+  font-size: 18px;
+  align-items: center;
+  color: #fff;
+  border-radius: 8px;
+  justify-content: center;
+}

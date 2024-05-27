@@ -1,0 +1,124 @@
+.title-top {
+  display: flex;
+  align-items: center;
+}
+.title-top > span {
+  margin-right: 10px;
+}
+.theme-2 .imgs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+}
+.theme-information .text {
+  margin: 5px 0;
+}
+.theme-2 .imgs img {
+  height: 140px;
+}
+.subtitle {
+  width: 100%;
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  color: blueviolet;
+  margin: 10px;
+}
+.img-desktop {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.theme-2 ol {
+  counter-reset: item;
+  padding-left: 10px;
+}
+.theme-2 .monitor-imgs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  margin: 10px 0;
+}
+.monitor-imgs .monitor-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.theme-2 .monitor-imgs img {
+  height: 160px;
+}
+.monitor-imgs.extra-devices {
+  grid-template-columns: repeat(5, 1fr);
+  columns: 20px;
+  margin: 20px 0;
+}
+.monitor-imgs.extra-devices .extra-device {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.monitor-imgs.extra-devices .extra-device p {
+  margin-top: 5px;
+}
+@media (max-width: 1170px) {
+  .monitor-imgs.extra-devices {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 780px) {
+  .theme-2 .monitor-imgs img {
+    height: 128px;
+  }
+  .theme-inf {
+    width: 100%;
+  }
+}
+@media (max-width: 650px) {
+  .theme-2 .monitor-imgs img {
+    height: 128px;
+  }
+  .theme-inf {
+    width: 100%;
+  }
+  .theme-information p {
+    line-height: 19px;
+    font-size: 16px;
+  }
+  .title h3 {
+    width: 75%;
+    font-size: 16px;
+  }
+  .theme-2 .imgs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .theme-information {
+    width: 95%;
+  }
+}
+@media (max-width: 550px) {
+  .theme-2 .monitor-imgs img {
+    height: 128px;
+  }
+  .theme-inf {
+    width: 100%;
+  }
+  .theme-information p {
+    line-height: 19px;
+    font-size: 16px;
+  }
+  .title h3 {
+    width: 75%;
+    font-size: 16px;
+  }
+  .theme-2 .imgs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .theme-information {
+    width: 95%;
+  }
+}

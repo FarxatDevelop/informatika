@@ -1,0 +1,76 @@
+.classes {
+  width: 85%;
+  margin: 0 auto;
+  padding: 8px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: auto;
+  gap: 30px;
+  margin-top: 25px;
+}
+.classes .class {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  height: 140px;
+  padding: 7px;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 9px 20px -1px rgba(0, 0, 0, 0.18);
+  -moz-box-shadow: 0px 9px 20px -1px rgba(0, 0, 0, 0.18);
+  box-shadow: 0px 9px 20px -1px rgba(0, 0, 0, 0.18);
+}
+.classes .class .theme-row {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.classes .class .theme-row p {
+  font-size: 19px;
+  font-weight: 700;
+}
+.classes .class .group {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 600;
+}
+.classes a {
+  text-decoration: none;
+  color: #fa5411;
+}
+.class-number {
+  font-size: 40px;
+  font-weight: 600;
+}
+.class h4 {
+  color: blueviolet;
+}
+@media (max-width: 1420px) {
+  .classes {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 1058px) {
+  .classes .class .theme-row p {
+    font-size: 17px;
+  }
+}
+@media (max-width: 930px) {
+  .classes {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .classes {
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 75%;
+  }
+}
+@media (max-width: 410px) {
+  .classes {
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 85%;
+  }
+}
