@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Class = ({ theme, tasks, numberOfTheme }) => {
+const FullTheme = ({ theme, tasks, numberOfTheme }) => {
   let newTheme = theme;
   if (newTheme.length > 38) {
     newTheme = theme.slice(0, 37) + "...";
@@ -23,4 +23,4 @@ const Class = ({ theme, tasks, numberOfTheme }) => {
   );
 };
 
-export default Class;
+export default FullTheme;

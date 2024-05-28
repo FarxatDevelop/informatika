@@ -1,0 +1,16 @@
+.etaplar-imgs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+.etaplar-imgs .etap-img {
+  margin: 0 10px;
+}
+.etap-img {
+  display: flex;
+  align-items: center;
+}
+.etap-img img {
+  margin-right: 3px;
+}

@@ -7,23 +7,37 @@
 body {
   background-color: #e6e6e6;
   color: #121772 !important;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 main {
   min-height: 100dvh;
-  padding: 10px;
-  padding-bottom: 20px;
+}
+.container {
+  width: 88%;
+  margin: 0 auto;
+}
+.title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  position: relative;
+  color: blueviolet;
+  padding: 15px 0;
+}
+.title h3 {
+  width: 50%;
+  font-size: 18px;
+  text-align: center;
 }
 .theme-inf {
-  width: 85%;
   margin: 0 auto;
   margin-top: 25px;
   min-height: 80dvh;
-}
-.title {
-  position: relative;
-  color: blueviolet;
-  padding-bottom: 15px;
-  border-bottom: 2px solid blueviolet;
 }
 .provel {
   width: 35px;
@@ -46,4 +60,39 @@ main {
   color: #fff;
   border-radius: 8px;
   justify-content: center;
+}
+footer {
+  height: 30px;
+  width: 100%;
+}
+@media (max-width: 1164px) {
+  .title h3 {
+    width: 80%;
+    text-align: center;
+  }
+}
+@media (max-width: 770px) {
+  .title h3 {
+    width: 80%;
+    text-align: center;
+  }
+}
+@media (max-width: 650px) {
+  .container {
+    width: 95%;
+  }
+}
+
+@media (max-width: 582px) {
+  .title h3 {
+    width: 80%;
+    font-size: 15px;
+  }
+  .title {
+    padding: 10px 0;
+  }
+  .title .back {
+    padding: 8px;
+    transform: translate(0%, -50%);
+  }
 }

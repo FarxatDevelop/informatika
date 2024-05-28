@@ -77,6 +77,9 @@ h4.operation-sistem-name {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+@media (max-width: 900px) {
+  
+}
 @media (max-width: 780px) {
   .theme-2 .monitor-imgs img {
     height: 128px;

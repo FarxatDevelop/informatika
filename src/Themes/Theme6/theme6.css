@@ -1,0 +1,52 @@
+.keyboard-img {
+  margin-top: 20px;
+}
+.keyboard-img img {
+  width: 500px;
+  height: 280px;
+}
+table tr td {
+  font-size: 15px;
+}
+table tr td:nth-child(3) {
+  padding: 5px;
+}
+.FnKeysImg img {
+  width: 570px;
+  height: 50px;
+}
+.A_FImg img {
+  width: 370px;
+  height: 80px;
+}
+table tr th {
+  font-size: 15px;
+}
+@media (max-width: 540px) {
+  .keyboard-img img {
+    width: 400px;
+    height: 210px;
+  }
+}
+@media (max-width: 518px) {
+  .FnKeysImg img {
+    width: 388px;
+    height: 39px;
+  }
+}
+@media (max-width: 430px) {
+  .keyboard-img img {
+    width: 328px;
+    height: 155px;
+  }
+}
+@media (max-width: 417px) {
+  .FnKeysImg img {
+    width: 308px;
+    height: 30px;
+  }
+  .A_FImg img {
+    width: 310px;
+    height: 55px;
+  }
+}

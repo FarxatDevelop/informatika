@@ -1,0 +1,12 @@
+@media (max-width: 539px) {
+  .StartBoomImg2 img {
+    width: 300px !important;
+    height: 170px !important;
+  }
+}
+@media (max-width: 438px) {
+  .StartBoomImgCongrut img {
+    width: 300px !important;
+    height: 170px !important;
+  }
+}

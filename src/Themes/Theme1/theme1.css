@@ -1,16 +1,4 @@
-.title {
-  min-height: 8dvh;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.title h3 {
-  width: 40%;
-  text-align: center;
-}
 .theme-information {
-  width: 85%;
   margin: 0 auto;
   margin-top: 25px;
 }
@@ -92,20 +80,11 @@ ol h3 {
   justify-content: center;
   font-weight: 900;
 }
-
-@media (max-width: 1308px) {
-  .title h3 {
-    width: 60%;
-  }
-  .theme-inf {
-    width: 90%;
-  }
-}
 @media (max-width: 1200px) {
   .title h3 {
     width: 75%;
   }
-  ol {
+  .theme-1 ol {
     width: 100%;
   }
   .imgs {
