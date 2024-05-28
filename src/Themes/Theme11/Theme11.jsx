@@ -1,12 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { IoArrowBack } from "react-icons/io5";
-import FullProgImg from "../../assets/full-prog.jpg";
-import PaintImg from "../../assets/paint-menu.jpg";
-import ColorPanel from "../../assets/color-panel.jpg";
-import { FaWindows } from "react-icons/fa6";
 import { CiWarning } from "react-icons/ci";
-import PaintBlock from "../../assets/paint-block.jpg";
 import ToolPanels from "../../assets/tool-panels.jpg";
 import StarIcon from "../../assets/start-tool.jpg";
 import StarIcon2 from "../../assets/square.jpg";

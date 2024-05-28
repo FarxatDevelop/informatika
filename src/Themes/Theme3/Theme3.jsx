@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { IoArrowBack } from "react-icons/io5";
-import KnobImg from "../../assets/knob.png";
 
 const Theme2 = () => {
   return (

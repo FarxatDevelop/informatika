@@ -2,24 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { IoArrowBack } from "react-icons/io5";
 import "./theme8.css";
-import FullProgImg from "../../assets/full-prog.jpg";
-import YearImg from "../../assets/year.jpg";
-import KatalogImg from "../../assets/katalog.jpg";
-import DanishpanlarImg from "../../assets/danishpanlar.jpg";
-import KeyboardImg from "../../assets/keyboard.jpg";
-import Eng_ru from "../../assets/ru-eng.jpg";
-import A_FImg from "../../assets/a-f.jpg";
-import FnKeysImg from "../../assets/fn-keys.jpg";
-import StartBoomImg from "../../assets/star-boom.jpg";
-import StartBoomImg2 from "../../assets/star-boom-2.jpg";
-import StartBoomFullImg from "../../assets/star-boom-full.jpg";
-import StartBoomImgCongrut from "../../assets/star-boom-congrut.jpg";
-import {
-  FaArrowDown,
-  FaArrowLeft,
-  FaArrowRight,
-  FaArrowUp,
-} from "react-icons/fa";
 
 const Theme8 = () => {
   return (

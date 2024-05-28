@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { IoArrowBack } from "react-icons/io5";
 import "./theme5.css";
-import { CiWarning } from "react-icons/ci";
 import FullProgImg from "../../assets/full-prog.jpg";
 import YearImg from "../../assets/year.jpg";
 import KatalogImg from "../../assets/katalog.jpg";

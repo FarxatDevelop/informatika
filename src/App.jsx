@@ -13,9 +13,8 @@ import Theme7 from "./Themes/Theme7/Theme7";
 import Theme8 from "./Themes/Theme8/Theme8";
 import Theme9 from "./Themes/Theme9/Theme9";
 import Theme10 from "./Themes/Theme10/Theme10";
-
-import "./App.css";
 import Theme11 from "./Themes/Theme11/Theme11";
+import "./App.css";
 function App() {
   return (
     <main>
