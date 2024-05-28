@@ -1,9 +1,6 @@
 import React from "react";
-
 import { IoArrowBack } from "react-icons/io5";
 import { Link } from "react-router-dom";
-import { CiWarning } from "react-icons/ci";
-import sitImg from "../../assets/sit.jpg";
 
 const Theme1 = () => {
   return (
@@ -14,7 +11,7 @@ const Theme1 = () => {
             <IoArrowBack />
           </button>
         </Link>
-        <h3>KirisIW</h3>
+        <h3>Kirisiw</h3>
       </div>
       <div className="subtitle">
         <h3>Hu’rmetli woqi’wshi’lar!</h3>

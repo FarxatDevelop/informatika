@@ -1,18 +1,15 @@
 .classes {
-  width: 85%;
-  margin: 0 auto;
-  padding: 8px;
   display: grid;
+  width: 100%;
   grid-template-columns: repeat(4, 1fr);
-  height: auto;
-  gap: 30px;
   margin-top: 25px;
+  gap: 20px;
 }
 .classes .class {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #fff;
+  background-color: #f5f1f1;
   height: 140px;
   padding: 7px;
   border-radius: 5px;
@@ -20,6 +17,11 @@
   -webkit-box-shadow: 0px 9px 20px -1px rgba(0, 0, 0, 0.18);
   -moz-box-shadow: 0px 9px 20px -1px rgba(0, 0, 0, 0.18);
   box-shadow: 0px 9px 20px -1px rgba(0, 0, 0, 0.18);
+  transition: background 0.5s;
+}
+.classes .class:hover {
+  transition: background 0.5s;
+  background-color: #fff;
 }
 .classes .class .theme-row {
   display: flex;
@@ -65,12 +67,11 @@
 @media (max-width: 600px) {
   .classes {
     grid-template-columns: repeat(1, 1fr);
-    max-width: 75%;
+    width: 100%;
   }
 }
 @media (max-width: 410px) {
   .classes {
     grid-template-columns: repeat(1, 1fr);
-    max-width: 85%;
   }
 }

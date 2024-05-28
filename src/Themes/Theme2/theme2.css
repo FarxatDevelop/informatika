@@ -24,6 +24,10 @@
   justify-content: center;
   color: blueviolet;
   margin: 10px;
+  text-align: center;
+}
+.subtitle h3 {
+  font-size: 18px;
 }
 .img-desktop {
   width: 100%;
@@ -85,6 +89,9 @@
   .theme-inf {
     width: 100%;
   }
+  .theme-information {
+    margin-top: 10px;
+  }
   .theme-information p {
     line-height: 19px;
     font-size: 16px;
@@ -106,6 +113,10 @@
   }
   .theme-inf {
     width: 100%;
+  }
+  ol h3,
+  .subtitle h3 {
+    font-size: 15px;
   }
   .theme-information p {
     line-height: 19px;

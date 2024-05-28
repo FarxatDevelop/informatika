@@ -17,7 +17,7 @@ const Theme2 = () => {
       </div>
       <div className="theme-information">
         <div className="text">
-          <span className="provel"> </span>
+          <span className="provel"></span>
           <p>
             Kompyuterde wori’nlanatug’i’n barli’q a’mellerdi uluwmalasti’rg’an
             jag’dayda, wolardi’ u’sh tiykarg’i’ wazi’ypalarg’a aji’rati’wi’mi’z
