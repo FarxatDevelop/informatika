@@ -35,7 +35,7 @@ function App() {
           <Route path="/theme/9" element={<Theme9 />}></Route>
           <Route path="/theme/10" element={<Theme10 />}></Route>
           <Route path="/theme/11" element={<Theme11 />}></Route>
-          <Route path="*" element={<h1>Not page</h1>}></Route>
+          <Route path="/theme/*" element={<h1>Not page</h1>}></Route>
         </Routes>
         <footer></footer>
       </div>
