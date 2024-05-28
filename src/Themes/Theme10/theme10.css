@@ -1,0 +1,17 @@
+.paint {
+  grid-template-columns: repeat(3, 1fr) !important;
+}
+.title-top.paint .subtitle {
+  margin: 0;
+}
+
+@media (max-width: 536px) {
+  .title-top.paint {
+    flex-direction: column !important;
+  }
+}
+@media (max-width: 550px) {
+  .theme-2 .imgs {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}

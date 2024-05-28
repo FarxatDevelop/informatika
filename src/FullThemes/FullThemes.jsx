@@ -48,6 +48,12 @@ const FullThemes = () => {
         tasks="6"
         numberOfTheme="10"
       />
+      <FullTheme
+        theme="Paint u’skeneler paneli
+ha’m wonnan paydalani’w"
+        tasks="7"
+        numberOfTheme="11"
+      />
     </div>
   );
 };

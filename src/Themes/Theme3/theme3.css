@@ -9,6 +9,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   width: 100%;
+  margin: 0 auto;
 }
 
 .operation-sistems {
@@ -78,7 +79,6 @@ h4.operation-sistem-name {
   }
 }
 @media (max-width: 900px) {
-  
 }
 @media (max-width: 780px) {
   .theme-2 .monitor-imgs img {
@@ -112,7 +112,7 @@ h4.operation-sistem-name {
 }
 @media (max-width: 550px) {
   .theme-2 .monitor-imgs img {
-    height: 128px;
+    height: 58px;
   }
   .theme-inf {
     width: 100%;
@@ -127,6 +127,10 @@ h4.operation-sistem-name {
   }
   .theme-2 .imgs {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .theme-2 .imgs img {
+    height: 80px;
+    width: 80px;
   }
   .theme-information {
     width: 95%;

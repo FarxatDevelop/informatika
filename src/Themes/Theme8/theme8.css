@@ -1,0 +1,6 @@
+table.table-8theme tr td:nth-child(1) {
+  padding: 5px;
+}
+table.table-8theme tr td:nth-child(3) {
+  padding: 5px 20px;
+}

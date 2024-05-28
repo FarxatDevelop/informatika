@@ -1,0 +1,7 @@
+.imgs.operation-sistems {
+  margin: 10px auto;
+  margin-top: 20px;
+  width: 60%;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+}

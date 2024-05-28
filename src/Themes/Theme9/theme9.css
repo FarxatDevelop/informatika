@@ -1,0 +1,5 @@
+@media (max-width: 600px) {
+  .title-top.themes-9 {
+    flex-direction: column;
+  }
+}
