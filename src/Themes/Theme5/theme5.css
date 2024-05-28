@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   padding: 20px 0;
+  flex-wrap: wrap;
 }
 .etaplar-imgs .etap-img {
   margin: 0 10px;
@@ -13,4 +14,16 @@
 }
 .etap-img img {
   margin-right: 3px;
+}
+@media (max-width: 384px) {
+  .yaer-img {
+    width: 320px;
+    height: 200px;
+  }
+}
+@media (max-width: 360px) {
+  .yaer-img {
+    width: 300px;
+    height: 180px;
+  }
 }

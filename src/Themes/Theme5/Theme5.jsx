@@ -7,6 +7,7 @@ import FullProgImg from "../../assets/full-prog.jpg";
 import YearImg from "../../assets/year.jpg";
 import KatalogImg from "../../assets/katalog.jpg";
 import DanishpanlarImg from "../../assets/danishpanlar.jpg";
+import "./theme5.css";
 const Theme5 = () => {
   return (
     <div className="theme-2 theme-inf">
@@ -55,10 +56,10 @@ const Theme5 = () => {
               alt=""
             />
           </div>
-          <div className="etap-img">
+          <div className="etap-img standart">
             <img src={FullProgImg} width={150} alt="" />
           </div>
-          <div className="etap-img">
+          <div className="etap-img file">
             <img
               src="https://s1.iconbird.com/ico/2013/10/464/w512h5121380984756folder.png"
               width={40}
@@ -66,7 +67,7 @@ const Theme5 = () => {
             />
             <p>Стандартные</p>
           </div>
-          <div className="etap-img">
+          <div className="etap-img file">
             <img
               src="https://www.freeiconspng.com/thumbs/notepad-icon/notepad-icon-7.png"
               width={40}
@@ -100,7 +101,13 @@ const Theme5 = () => {
           </p>
         </div>
         <div className="img-desktop">
-          <img src={YearImg} alt="" width={360} height={250} />
+          <img
+            src={YearImg}
+            className="yaer-img"
+            alt=""
+            width={360}
+            height={250}
+          />
         </div>
         <div className="subtitle">
           <h3>Fayl ha’m papkag’a qayta atama beriw</h3>
@@ -136,14 +143,26 @@ const Theme5 = () => {
             dep atalg’an papka payda yetin’
           </li>
           <div className="img-desktop">
-            <img src={KatalogImg} alt="" width={360} height={200} />
+            <img
+              src={KatalogImg}
+              className="yaer-img"
+              alt=""
+              width={360}
+              height={200}
+            />
           </div>
           <li>
             Payda bolg’an papkalarg’a sa’ykes tu’rde to’mendegishe qayta atama
             berin’
           </li>
           <div className="img-desktop">
-            <img src={DanishpanlarImg} alt="" width={360} height={200} />
+            <img
+              src={DanishpanlarImg}
+              className="yaer-img"
+              alt=""
+              width={360}
+              height={200}
+            />
           </div>
         </ol>
 
