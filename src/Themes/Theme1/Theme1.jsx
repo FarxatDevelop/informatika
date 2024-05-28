@@ -57,10 +57,10 @@ const Theme1 = () => {
           <ol type="1">
             <h3>Qa’wipsizlik texnikasi’ qag’i’ydalari’</h3>
             <li>
-              Mug'allimnin' ruqsati'si'z wo'zbetinshe yetip kompyuterdi iske
+              Mug'allimnin' ruqsati'si'z o'zbetinshe etip kompyuterdi iske
               tu'siriw
             </li>
-            <li>Kompyuter bo'lmesine u'stki kiyimlerde kirip woti'ri'w;</li>
+            <li>Kompyuter bo'lmesine u'stki kiyimlerde kirip oti'ri'w;</li>
             <li>
               Elektr togi' dereklerin ha'm tutasti’ri’wshi’ si'mlardi' uslaw;
             </li>
@@ -79,7 +79,7 @@ const Theme1 = () => {
             </li>
             <li>Kompyuterdin' qasi'nda awqatlani'w, suw ishiw;</li>
             <li>
-              Tez janatug'i'n buyi'mlar ha'm qu- ri'lmalardi'n' ishki
+              Tez janatug'i'n buyi'mlar ha'm quri'lmalardi'n' ishki
               elementlerine keri ta'sir yetiwshi kislotali', qurami’nda xlor
               bolg'an zatlardi' ali'p kiriw;
             </li>
@@ -88,7 +88,7 @@ const Theme1 = () => {
               qollari'n'ï'z benen basqari’w;
             </li>
             <li>Klaviatura ha'm «mi'shka»dan paydalang'anda ku'sh isletiw;</li>
-            <li>Kompyuterdi ruqsatsi'z wo'shirip, jumi'sti' juwmaqlaw;</li>
+            <li>Kompyuterdi ruqsatsi'z o'shirip, jumi'sti' juwmaqlaw;</li>
           </ol>
           <div className="imgs">
             <img src="https://pbs.twimg.com/media/EWcZyuWWoAAlpwp.png" alt="" />
@@ -141,7 +141,7 @@ const Theme1 = () => {
                 shi’g’armawi’n’i’z kerek:
               </p>
             </div>
-            <li>Kompyuter stoli’nan 20 sm uzaqli’qta woti’ri’n’</li>
+            <li>Kompyuter stoli’nan 20 sm uzaqli’qta oti’ri’n’</li>
             <li>
               Ko’zin’iz kompyuter monitori’nan 50—60 sm uzaqli’qta bolsi’n,
               20—30 minuttan son’ ko’zge dem berip turi’w ha’m kompyuterde islew
@@ -152,7 +152,7 @@ const Theme1 = () => {
               payda yetsin
             </li>
             <li>
-              Kompyuter aldi’nda woti’rg’ani’n’i’zda denen’izdi tik uslan’
+              Kompyuter aldi’nda oti’rg’ani’n’i’zda denen’izdi tik uslan’
             </li>
             <li>Ayaq tabani’n’i’z polg’a toli’q tiyi p tursi’n</li>
             <li>Qol alaqani’ ha’m barmaqlari’- n’i’zdi’ yerkin uslan’</li>
@@ -194,21 +194,21 @@ const Theme1 = () => {
         <div className="text">
           <div className="provel"></div>
           <p>
-            <b>3-shi’ni’g’i’w.</b> 3-shi’ni’g’i’w. Basti’ burmag’an halda
+            <b>3-shi’ni’g’i’w.</b> Basti’ burmag’an halda
             ko’zin’izdi aldi’n won’g’a qarati’n’ ha’m bul jag’daydi’ biraz
             saqlap turi’n’, keyin ko’zin’izdi tuwri’g’a qarati’p, 6 sekund
             uzaqlarg’a qarap turi’n’. Mine usi’ shi’ni’g’i’wlardi’ ko’zin’izdi
-            shepke, pa’stke ha’m joqari’g’a qarati’p wori’nlan’. Shi’ni’g’i’wdi’
+            shepke, pa’stke ha’m joqari’g’a qarati’p ori’nlan’. Shi’ni’g’i’wdi’
             1—6 yesabi’nda ta’kirarlan’.
           </p>
         </div>
         <div className="text">
           <div className="provel"></div>
           <p>
-            <b>4-shi’ni’g’i’w.</b> Ko’zdi joqari’g’a won’ ta’repten dioganal
+            <b>4-shi’ni’g’i’w.</b> Ko’zdi joqari’g’a on’ ta’repten dioganal
             boylap to’mengi shep ta’repine qaran’, son’i’nan uzaqlarg’a 6 sekund
             qarap turi’n’. Tap usi’nday usi’l menen tek ko’zdi joqarg’i’ shep
-            ta’repten to’mengi won’ ta’repine qaran’ ha’m 6 sekund uzaqlarg’a
+            ta’repten to’mengi on’ ta’repine qaran’ ha’m 6 sekund uzaqlarg’a
             qarap turi’n’. Bul shi’ni’g’i’wdi’ 3—5 ma’rte ta’kirarlan’.
           </p>
         </div>

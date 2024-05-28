@@ -14,15 +14,15 @@ const Theme1 = () => {
         <h3>Kirisiw</h3>
       </div>
       <div className="subtitle">
-        <h3>Hu’rmetli woqi’wshi’lar!</h3>
+        <h3>Hu’rmetli oqi’wshi’lar!</h3>
       </div>
       <div className="theme-information">
         <div className="text">
           <span className="provel"></span>
           <p>
             Ilim ha’m texnika, a’sirese, xabar texnologiyalari’ tez pa’t penen
-            rawajlani’p barati’rg’an bul da’wirde ha’rbir insan wo’zinin’
-            wo’mirinde a’hmiyetli bolg’an bilim ha’m ko’nlikpelerge iye boli’wi’
+            rawajlani’p barati’rg’an bul da’wirde ha’rbir insan o’zinin’
+            o’mirinde a’hmiyetli bolg’an bilim ha’m ko’nlikpelerge iye boli’wi’
             za’ru’r.
           </p>
         </div>
@@ -30,8 +30,8 @@ const Theme1 = () => {
           <div className="provel"></div>
           <p>
             Erkin o’mirge isenimli qa’dem taslaw, a’tirapi’mi’zda boli’p
-            ati’rg’an wo’zgerisler ha’m jan’ali’qlar menen ten’be-ten’ qa’dem
-            taslap jasaw ushi’n ha’rbir woqi’wshi’ to’mendegi bilim ha’m
+            ati’rg’an o’zgerisler ha’m jan’ali’qlar menen ten’be-ten’ qa’dem
+            taslap jasaw ushi’n ha’rbir oqi’wshi’ to’mendegi bilim ha’m
             ko’nlikpelerge iye boli’wi’ kerek:
           </p>
         </div>
@@ -49,9 +49,9 @@ const Theme1 = () => {
         <div className="text">
           <div className="provel"></div>
           <p>
-            5-klasta siz birinshi ma’rte «Informatika» pa’nin u’yreni p
+            5-klasta siz birinshi ma’rte «Informatika» pa’nin u’yrenip
             ati’rsi’z. Informatika sabaqlari’nda siz jan’a tu’siniklerdi
-            u’yrenesiz, ma’sele ha’m tapsi’rmalardi’ wori’nlawda kompyuterden
+            u’yrenesiz, ma’sele ha’m tapsi’rmalardi’ ori’nlawda kompyuterden
             paydalanasi’z.
           </p>
         </div>

@@ -91,7 +91,7 @@ const Theme2 = () => {
         <ol type="1">
           <li>
             <b>Sistemali’ blok</b> – wo’zinde birneshe quramali’ quri’lmalardi’
-            birlestirgen ha’m qorg’aw qabi’g’i’na woralg’an quri’lma. Onda
+            birlestirgen ha’m qorg’aw qabi’g’i’na oralg’an quri’lma. Onda
             tiykarg’i’ plata, processor, yad, qatti’ disk si’yaqli’ za’ru’rli
             quri’lmalar jaylasqan.
           </li>
@@ -107,7 +107,7 @@ const Theme2 = () => {
             <span className="provel"></span>
             <p>
               <b>Processor</b> — kompyuterdin’ quramli’q quri’lmasi’
-              yesaplani’p, basqa barli’q quri’lmalardi’ basqaradi’
+              esaplani’p, basqa barli’q quri’lmalardi’ basqaradi’
             </p>
             <div className="text">
               <span className="provel"></span>
@@ -125,7 +125,7 @@ const Theme2 = () => {
             <li>
               <b>Monitor</b> (lati’nsha so’z boli’p,{" "}
               <b>
-                <i>«yesletiwshi»</i>,
+                <i>«esletiwshi»</i>,
               </b>
               <b>
                 <i> «xabar beriwshi» </i>
@@ -205,7 +205,7 @@ const Theme2 = () => {
           <li>Kompyuter ha’m woni’n’ wazi’ypasi’ haqqi’nda ayti’p berin’.</li>
           <li>
             Jeke kompyuterler qanday tiykarg’i’ quri’lmalardan ibarat ha’m ne
-            sebepten tiykarg’i’ dep yesaplanadi’?
+            sebepten tiykarg’i’ dep esaplanadi’?
           </li>
           <li>
             Kompyuterdin’ tiykarg’i’ quri’lmalari’ni’n’ wazi’ypalari’n ayti’p
