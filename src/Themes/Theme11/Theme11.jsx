@@ -59,9 +59,7 @@ const Theme11 = () => {
             <b>
               U’skeneler panelindegi kerekli u’skeneden paydalani’w ushi’n
               «mi’shka» ko’rsetkishi tan’lang’an u’skene u’stine ali’p
-              bari’ladi’ ha’m woni’n’ shep tu’ymesi basi’ladi’. «Mi’shka»
-              ju’rgishi jumi’s maydani’na ko’shiriledi ha’m «mi’shka»ni’n’ shep
-              tu’ymesi basi’lg’an jag’dayda su’wret si’zi’ladi’.
+              bari’ladi’ ha’m woni’n’ shep tu’ymesi basi’ladi’.
             </b>
           </p>
         </div>
